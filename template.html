@@ -8,11 +8,13 @@
       margin: 50px 50px 50px 50px;} */
     body {
       margin: 0px;
+      
     }    
     div.redborder{
       width: 350px; 
       height: 200px; 
       background-color: #ff0000;
+      float: left;
     }
     div.box{
       background-color: #000000;
@@ -25,7 +27,8 @@
     div.blueborder{
       width: 350px; 
       height: 200px; 
-      background-color: #0000ff
+      background-color: #0000ff;
+      float: left;
     }
       /* h1 {font-family:Arial;} */
       /* div {
@@ -52,14 +55,16 @@
   </head>
 
   <body>
-    <div class="redborder">
-      <div class="box"></div>
-      <div class="box"></div>
-    </div>
-    <div class="blueborder">
-      <div class="box"></div>
-      <div class="box"></div>
-    </div>
+    <div id="parentdiv">
+      <div class="redborder">
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="blueborder">
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      </div>
     <!-- <div class="black"></div>
     <div class="red"></div>
     <div class="gold"></div> -->
